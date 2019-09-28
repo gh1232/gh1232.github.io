@@ -4,13 +4,16 @@
 function toAnchor(i){
 
 let ta = document.getElementsById(i);
-let uu = ta[0].split("\n");
+let uu = ta[0].value.split("\n");
 let oo=[];
-let o="";qqq1111qqqq1q
+let o="";
 foreach (let u in uu){
- 
+ o="<a href=\"" + u + "\">1</a>";
+ oo.push(o);
 }
 
+ let to = document.getElementById("o");
+ to[0].value=(oo.join("\n"));
 }
 
 </script>
