@@ -39,8 +39,8 @@ function getTimeDate() {
 	{
 		var q=document.getElementById("q").value;
 
-	//let u=encurl(url . q);
-		window.open(url . q);
+	//let u=encurl(url + q);
+		window.open(url + q);
 	
 	}
 	//  qqqqqqq
@@ -53,9 +53,9 @@ function getTimeDate() {
  <form>
   <input name="q" value="" size="30" autofocus> 
  
+<button type="submit" onclick="go('http://duckduckgo.com/?q=')" accesskey="d"  >duck</button>  
 
  <button type="submit" formaction='http://google.com' accesskey="g"  formmethod="get" formtarget="_blank">google</button>  
-<button type="submit" onclick="go('http://duckduckgo.com/?q=')" accesskey="d"  >duck</button>  
 
  <button type="submit" formaction='http://youtube.com' accesskey="y"  formmethod="get" formtarget="_blank">youtube</button>  
 
