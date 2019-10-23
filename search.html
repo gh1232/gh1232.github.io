@@ -2,7 +2,7 @@
 <head>
 <script>
  function encurl(u){
-var txt=document.getElementById("q").value;
+var txt=document.getElementsByName('q')[0].value;
 var encodetxt= encodeURI(txt);
 alert(u);
 alert(txt);
@@ -37,8 +37,8 @@ function getTimeDate() {
 <script> 
 	function go (url)
 	{
-		var q=document.getElementById("q").value;
-alert (q);
+		var q=document.getElementsByName('q')[0].value;
+//alert (q);
 	//let u=encurl(url + q);
 		window.open(url + q);
 	
